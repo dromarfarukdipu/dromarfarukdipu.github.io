@@ -1043,12 +1043,31 @@ export default function Home() {
           </div>
 
           <div className="hidden items-center gap-8 text-sm font-medium md:flex">
-            <a href="#home" className="hover:text-blue-600">Home</a>
-            <a href="#about" className="hover:text-blue-600">About</a>
-            <a href="#services" className="hover:text-blue-600">Services</a>
-            <a href="#gallery" className="hover:text-blue-600">Gallery</a>
-            <a href="#contact" className="hover:text-blue-600">Contact</a>
-          </div>
+  <a href="#home" className="hover:text-blue-600">Home</a>
+
+  <a href="#about" className="hover:text-blue-600">
+    About
+  </a>
+
+  <a href="#services" className="hover:text-blue-600">
+    Services
+  </a>
+
+  <a
+    href="#symptoms"
+    className="font-semibold text-blue-600 hover:text-blue-800"
+  >
+    Symptom Checker
+  </a>
+
+  <a href="#gallery" className="hover:text-blue-600">
+    Gallery
+  </a>
+
+  <a href="#contact" className="hover:text-blue-600">
+    Contact
+  </a>
+</div>
 
           <a
             href="#contact"
